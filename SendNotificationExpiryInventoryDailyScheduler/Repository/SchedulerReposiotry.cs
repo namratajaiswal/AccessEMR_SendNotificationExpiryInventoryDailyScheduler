@@ -17,8 +17,8 @@ namespace SendNotificationExpiryInventoryDailyScheduler.Repository
         {
             //client.BaseAddress = new Uri("https://live.emr-g.com/api/");
             //client.BaseAddress = new Uri("https://devlive.emr-g.com/api/");
-            //client.BaseAddress = new Uri("https://demolive.emr-g.com/api/");
-            client.BaseAddress = new Uri("http://localhost:51269/api/");
+            client.BaseAddress = new Uri("https://www.stagingwin.com:9522/api/");
+            //client.BaseAddress = new Uri("http://localhost:51269/api/");
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
         }
