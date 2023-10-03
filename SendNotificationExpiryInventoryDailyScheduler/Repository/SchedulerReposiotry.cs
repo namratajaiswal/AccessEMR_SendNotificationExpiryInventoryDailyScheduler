@@ -15,8 +15,7 @@ namespace SendNotificationExpiryInventoryDailyScheduler.Repository
         HttpClient client = new HttpClient();
         public SchedulerReposiotry()
         {
-            //client.BaseAddress = new Uri("https://live.emr-g.com/api/");
-            //client.BaseAddress = new Uri("https://devlive.emr-g.com/api/");
+            //client.BaseAddress = new Uri("https://accessehealth.com:8080/api/");
             client.BaseAddress = new Uri("https://www.stagingwin.com:9522/api/");
             //client.BaseAddress = new Uri("http://localhost:51269/api/");
             client.DefaultRequestHeaders.Accept.Add(
